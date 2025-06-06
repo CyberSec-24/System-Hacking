@@ -1,0 +1,8 @@
+-> pwdump7 is an application that dumps the password hashes (one-way functions or OWFs) from NT’s SAM database.
+
+->  This application or tool runs by extracting the binary SAM and SYSTEM file from the filesystem, and then extracts the hashes.
+
+-> One of the most powerful features of pwdump7 is that it is also capable of dumping protected files.
+
+-> Pwdump7 can also extract passwords offline by selecting the target files.
+
