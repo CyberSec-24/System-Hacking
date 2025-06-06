@@ -1,0 +1,13 @@
+-> Attackers use the hashcat tool to perform password attacks such as brute-force attacks, dictionary attacks, and mask attacks.
+
+->  To perform mask attacks, an attacker must know the flags used for the built-in charset, custom charset, and attack mode to create an appropriate pattern for the password.
+
+-> Attackers use the -m flag with hashcat to specify the hash mode, that is, the type of hash to crack, such as MD5, NTML, or SHA256.
+
+-> -a → Specifies the attack mode, which is 3 here (brute-force attack) -m → Specifies the hash type, which is 0 here (MD5)
+
+Example
+-> Hashcat -a 3 -m 0 md5_hasheshashcat -a 3 -m 0 md5_hashes.txt -1 ?l?u ?1?l?l?l19?d?ds-1 ?l?u → Specifies that the character is either an uppercase or a lowercase alphabets.
+
+For Better UNderstanding:-
+https://youtu.be/IAPT0sWmvNw?si=b2Yk7sq2wBKRw_yJ
