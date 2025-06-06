@@ -1,0 +1,21 @@
+-> Attackers can use the thc-hydra tool to gain unauthorized remote access to a target system through password cracking or password-spraying attacks
+
+->  This tool allows attackers to use different options on how to attack with logins and passwords.
+
+-> or example, attackers can use options such as -l for login and -p for password to instruct hydra
+
+-> to better undertand the tool perform practical by watching this :-
+https://youtu.be/-gE4leMl5Gg?si=6DNMPPqHk6vC4oeV
+
+
+
+
+
+
+
+
+
+
+
+
+
