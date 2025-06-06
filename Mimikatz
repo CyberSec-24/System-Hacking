@@ -1,0 +1,7 @@
+-> Mimikatz allows attackers to pass Kerberos TGT to other computers and sign in using the victim’s ticket.
+
+-> The tool also helps in extracting plaintext passwords, hashes, PIN codes, and Kerberos tickets from memory
+
+->  It is an open-source tool that enables anyone to see and store authentication data such as Kerberos tickets. 
+
+-> Attackers can leverage this for privilege escalation and credential stealing.
