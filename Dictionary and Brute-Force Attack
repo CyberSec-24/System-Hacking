@@ -1,0 +1,12 @@
+-> Download this file  https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+
+-> The attacker can create a customized dictionary of passwords by modifying the john.conf file to match the required password format
+
+-> Run the following command to generate a customized dictionary of passwords: john
+--wordlist=</path_to/rockyou.txt> <path_to/output_wordlist.txt>
+
+-> Run the following John the Ripper command with the customized wordlist file to start cracking the NTLM hashes: john
+–-rules --wordlist=</path_to/output_wordlist.txt> format=NT /path/to/ntlm_hashes.txt
+
+-> Run the following command to view the cracked passwords: john --show /path/to/ntlm_hashes.txt
+
