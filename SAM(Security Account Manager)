@@ -1,0 +1,12 @@
+-> Windows uses the Security Accounts Manager (SAM) database or Active Directory Database to manage user accounts and passwords in hashed format 
+
+->  The system implements the SAM database as a registry file, and the Windows kernel obtains and keeps an exclusive filesystem lock on the SAM file. 
+
+-> As this file consists of a filesystem lock, this provides some measure of security for the storage of passwords.
+
+-> Windows OSs use a Security Account Manager (SAM) database file to store user passwords. 
+
+-> The SAM file is stored at %SystemRoot%\system32\config\SAM in Windows systems, and Windows mounts it in the registry under the HKEY_LOCAL_MACHINE\SAM registry hive.
+
+-> The SAM file stores a “dummy” value in its database, which bears no relationship to the user’s actual password and is the same for all user accounts. It is not possible to calculate LM hashes for passwords exceeding 14 characters in length 
+
