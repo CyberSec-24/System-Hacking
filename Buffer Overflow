@@ -1,0 +1,9 @@
+-> Buffer overflow or overrun is a common vulnerability in applications or programs that accept more data than the allocated buffer.
+
+->  This vulnerability allows the application to exceed the buffer while writing data to the buffer and overwrite neighboring memory locations.
+
+->  Attackers exploit a buffer overflow vulnerability to inject malicious code into the buffer to damage files, modify program data, access critical information, escalate privileges, gain shell access, and so on.
+
+-> In most applications, a stack is used for static memory allocation. Contiguous blocks of memory are allocated for a stack to store temporary variables created by a function.
+
+->  heap is used for dynamic memory allocation. Heap memory is dynamically allocated at run time during the execution of the program, and it stores the program data.
